@@ -52,7 +52,7 @@
               >
                 -
               </button>
-              {{ item.quantity >= 0 ? item.quantity : removeFormCart(item) }}
+              {{ item.quantity >= 1 ? item.quantity : removeFormCart(item) }}
               <button
                 class="btn btn-info btn-sm"
                 size="sm"
